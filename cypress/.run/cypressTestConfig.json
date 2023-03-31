@@ -1,0 +1,16 @@
+{
+  "browser": {
+    "name": "electron",
+    "channel": "stable",
+    "family": "chromium",
+    "displayName": "Electron",
+    "version": "106.0.5249.51",
+    "path": "",
+    "majorVersion": 106,
+    "isHeaded": true,
+    "isHeadless": false
+  },
+  "platform": "win32",
+  "cypressVersion": "12.4.1",
+  "tenantURL": ""
+}

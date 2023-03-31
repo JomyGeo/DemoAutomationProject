@@ -1,0 +1,19 @@
+{
+  "browser": {
+    "name": "electron",
+    "channel": "stable",
+    "family": "chromium",
+    "displayName": "Electron",
+    "version": "102.0.5005.148",
+    "path": "",
+    "majorVersion": 102,
+    "info": "Electron is the default browser that comes with Cypress. This is the default browser that runs in headless mode. Selecting this browser is useful when debugging. The version number indicates the underlying Chromium version that Electron uses.",
+    "isHeaded": true,
+    "isHeadless": false
+  },
+  "platform": "win32",
+  "cypressVersion": "10.7.0",
+  "tenantURL": "",
+  "Execution_Start_Time": "11/4/2022 15:19:1",
+  "Execution_End_Time": "11/4/2022 16:10:7"
+}

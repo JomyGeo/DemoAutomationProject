@@ -1,0 +1,29 @@
+{
+  "json": {
+    "enabled": true,
+    "formatter": "node",
+    "args": [
+      "report-formatter.js"
+    ],
+    "output": "formatted-json/latestFormatProcess.log"
+  },
+  "messages": {
+    "enabled": true,
+    "output": "./cucumber-messages.ndjson"
+  },
+  "html":{
+    "enabled":true,
+    "output":"./cucumber-report.html"
+  },
+  
+  "stepDefinitions": [
+    "cypress/e2e/StepDefinitions/DSD_StepDefinitions/**/*.js"
+    
+  ],
+  "cucumberJson": {
+    "generate": true,
+    "outputFolder": "cypress/cucumber-json",
+    "filePrefix": "",
+    "fileSuffix": ".cucumber"
+  }
+}

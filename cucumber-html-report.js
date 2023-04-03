@@ -56,13 +56,7 @@ function getModuleName(spec){
     return ModuleName
 }
 
-function getTenantURLName(url){
-    
-    let value = JSON.stringify(url).split('.exterro')
-    const tenant = value[0].split('https://')
-    const tenantName = tenant.slice(1)
-    return tenantName
-}
+
 
 function timeStamp() {
     let today = new Date();

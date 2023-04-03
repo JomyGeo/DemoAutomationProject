@@ -18,7 +18,7 @@ dist/
 Reports/
 jsonlogs/
 cypress_automation/cypress.json
-package.json
+//package.json
 cypress_automation/Jenkinsfile
 cypress_automation/cypress/plugins
 Reports/

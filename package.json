@@ -1,0 +1,45 @@
+{
+  "name": "cypressautomation",
+  "version": "10.7.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress-tags run",
+    "posttest": "node cucumber-html-report.js"
+   },
+  "author": "Jomy George",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "@cypress/webpack-preprocessor": "^5.12.0",
+    "axe-core": "^4.4.1",
+    "cucumber-json-report-formatter": "^0.0.9",
+    "cypress": "^12.9.0",
+    "cypress-failed-log": "^2.9.5",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-fill-command": "^1.0.2",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mailosaur": "^2.6.0",
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-wait-until": "^1.7.2",
+    "esbuild": "^0.14.48",
+    "jsdom": "^20.0.0",
+    "mocha": "^9.2.1",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1",
+    "multiple-cucumber-html-reporter": "^3.0.1",
+    "react-scripts": "^4.0.3"
+  },
+  "dependencies": {
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "ndjson-to-json": "^1.1.0",
+    "ssh2-sftp-client": "^9.0.4",
+    "tesseract.js": "^3.0.2"
+  }
+}

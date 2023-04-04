@@ -178,13 +178,7 @@ report.generate({
         title: 'Run info',
         data: [
             {label: 'Tenant URL ', value: "<b>"+ getTenantURLName(runInfos.tenantURL)},
-          //  {label: 'Browser & Version  ', value: runInfos.browser.displayName+' ('+runInfos.browser.version +')'},
             {label: 'Execution Mode ', value: Execution_Mode()},
-           // {label: 'Operating system  ', value: mapOs(runInfos.platform)},
-        //   {label: 'Total No of Testcases ', value:  scanarioresult.scenarios.total , },
-       /*     {label: 'Total No of Testcases Passed  ', value:  scanarioresult.scenarios.passed , },
-           {label: 'Total No of Testcases Failed  ', value: scanarioresult.scenarios.failed, },
-           {label: 'Total No of Testcases Skipped  ', value: runInfos.skipped}, */
             {label: 'Execution Start Time ', value:  convert_Seconds_TO_Date_epochTime(executionStartTime)},//IST_Timeformat(runInfos.Execution_Start_Time)},
             {label: 'Execution End Time ', value: convert_Seconds_TO_Date_epochTime(executionEndTime)},//IST_Timeformat(runInfos.Execution_End_Time)},
             {label: 'Total Duration ', value: testDuration(executionStartTime,executionEndTime)}//testDuration(runInfos.Execution_End_Time,runInfos.Execution_Start_Time)}

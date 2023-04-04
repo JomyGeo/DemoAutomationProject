@@ -63,11 +63,7 @@ module.exports = defineConfig({
 
 
   env: {
-    fusionURL: 'https://qastagasset.exterro.net/',
-    
    
-    Fusion_UserName: 'Jomy',
-    Fusion_Password: 'Exterro-098',
     
     filterSpecs: true,
     omitFiltered: true,
